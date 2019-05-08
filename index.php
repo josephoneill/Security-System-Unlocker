@@ -7,7 +7,7 @@ do {
     $input = rtrim(fgets(STDIN));
     $fileExists = file_exists($input);
     if(!$fileExists) {
-        echo("\n Error: File does not exist. Please provide a proper file");
+        echo("\n Error: File does not exist. Please provide a proper file\n");
     }
 } while (!$fileExists);
 echo "\nLoading file: " . $input. "\n";
