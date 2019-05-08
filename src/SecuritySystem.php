@@ -24,6 +24,12 @@ class SecuritySystem
         }
     }
 
+    /**
+     * Function to determine whether or not the given security input is unlockable.
+     *
+     * @return bool
+     *      the boolean value as to whether it is possible to unlock the system
+     */
     public function isUnlockable()
     {
         $unlockable = false;
